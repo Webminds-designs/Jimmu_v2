@@ -25,13 +25,13 @@ const HeroSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-[#FFFAF4] h-screen text-center"
+      className="bg-primary h-screen text-center"
     >
       <div className="max-w-4xl mx-auto pt-28 md:pt-36">
         {/* Welcome Text */}
         <div className="overflow-hidden"> 
           <motion.h2
-            className="text-md text-[#2d2d2d] uppercase tracking-widest mb-6"
+            className="text-md text-secondary uppercase tracking-widest mb-6"
             variants={textVariant}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
@@ -55,7 +55,7 @@ const HeroSection = () => {
         <div className="flex flex-row justify-center gap-5 items-center my-6">
           <div className="overflow-hidden"> 
             <motion.h1
-              className="text-4xl sm:text-5xl font-bold text-[#2d2d2d]"
+              className="text-4xl sm:text-5xl font-bold text-secordary"
               variants={textVariant}
               initial="hidden"
               animate={isInView ? "visible" : "hidden"}
@@ -64,7 +64,8 @@ const HeroSection = () => {
             </motion.h1>
           </div>
 
-          <div className="flex justify-center items-center relative bg-[#FFFAF4]">
+          <div className="flex justify-center items-center relative bg-primary">
+            
             {/* First Image */}
             <motion.img
               src={hero1}
@@ -110,7 +111,7 @@ const HeroSection = () => {
 
           <div className="overflow-hidden"> 
             <motion.h1
-              className="text-4xl sm:text-5xl font-bold text-[#2d2d2d]"
+              className="text-4xl sm:text-5xl font-bold text-secondary"
               variants={textVariant}
               initial="hidden"
               animate={isInView ? "visible" : "hidden"}
@@ -123,7 +124,7 @@ const HeroSection = () => {
         <div className="flex flex-row justify-center gap-3 items-center md:my-4">
           <div className="overflow-hidden"> 
             <motion.h1
-              className="text-4xl sm:text-5xl font-bold text-[#2d2d2d]"
+              className="text-4xl sm:text-5xl font-bold text-secondary"
               variants={textVariant}
               initial="hidden"
               animate={isInView ? "visible" : "hidden"}
@@ -164,7 +165,7 @@ const HeroSection = () => {
         {/* Call To Action */}
         <div className="overflow-hidden"> 
           <motion.button
-            className="mt-8 bg-[#FFAA29] text-[#2d2d2d] text-lg font-semibold py-2 px-4 rounded-lg hover:bg-orange-400"
+            className="mt-8 bg-assent text-secondary text-lg font-semibold py-2 px-4 rounded-lg hover:bg-orange-400"
             variants={textVariant}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
