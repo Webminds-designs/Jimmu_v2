@@ -3,12 +3,16 @@ import { motion, useInView } from "framer-motion";
 import hero1 from "../assets/images/hero1.png";
 import hero2 from "../assets/images/hero2.png";
 import hero3 from "../assets/images/hero3.png";
+
 import Arrow1 from "../assets/images/arrow1.png";
 import Arrow2 from "../assets/images/arrow2.png";
 
 const HeroSection = () => {
   const sectionRef = useRef(null);
-  const isInView = useInView(sectionRef, { triggerOnce: false, threshold: 0.2 });
+  const isInView = useInView(sectionRef, {
+    triggerOnce: false,
+    threshold: 0.2,
+  });
   const [showPopup, setShowPopup] = useState(false); // State to control popup visibility
 
   const handleCallClick = () => {
@@ -57,7 +61,8 @@ const HeroSection = () => {
         </div>
 
         {/* Main Heading */}
-        <div className="overflow-hidden">
+
+        <div className="overflow-hidden pb-5">
           <motion.h1
             className="text-3xl md:text-6xl font-bold text-secondary leading-tight"
             variants={textVariant}
@@ -164,7 +169,9 @@ const HeroSection = () => {
               alt="Arrow 2"
               className="w-8 sm:w-12 md:w-[50px] h-auto relative"
               initial={{ opacity: 0, x: -20 }}
-              animate={isInView ? { opacity: 1, x: 20 } : { opacity: 0, x: -20 }}
+              animate={
+                isInView ? { opacity: 1, x: 20 } : { opacity: 0, x: -20 }
+              }
               transition={{
                 duration: 1.7,
                 ease: [0.22, 0.61, 0.36, 1],
@@ -181,8 +188,8 @@ const HeroSection = () => {
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
           >
-            Utilizing our skills and experience, we can manage all aspects of High
-            Net Worth Divorces with reactive and proactive methods.
+            Utilizing our skills and experience, we can manage all aspects of
+            High Net Worth Divorces with reactive and proactive methods.
           </motion.p>
         </div>
 

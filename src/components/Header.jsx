@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+
+import logo from "../assets/images/Logo.png";
 import { Link, Events } from "react-scroll";
-import logo from "../assets/images/logo.png";
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true); // Header visibility state
