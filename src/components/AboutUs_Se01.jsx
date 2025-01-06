@@ -16,7 +16,7 @@ const AboutUs_Se01 = () => {
   });
 
   const ref = useRef(null);
-  const isInView = useInView(ref, { threshold: [0.2, 1], once: false });
+  const isInView = useInView(ref, { threshold: [0.5], once: false });
 
   return (
     <motion.section
