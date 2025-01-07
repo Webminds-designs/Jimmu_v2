@@ -22,7 +22,7 @@ const ServiceSection = ({ number, title, description, image, alt, index, isDarke
         transition: "filter 0.5s ease-in-out",
       }}
     >
-      <section className="w-full flex items-start justify-center h-full bg-primary p-6">
+      <section className="w-full h-screen flex items-start justify-center bg-primary p-6">
 
         <div className="w-fit grid grid-cols-1 md:grid-cols-2 items-start px-2 sm:px-4 md:px-0 h-full">
 
@@ -141,7 +141,7 @@ const services = [
     number: "4",
     title: "Assets Tracing & Forfeiture",
     description:
-      "Investigating and recovering hidden assets across jurisdictions.",
+      "Investigating, identifying, and recovering hidden assets, including financial holdings and property.",
     image: service4,
     alt: "Assets Tracing and Forfeiture",
   },
