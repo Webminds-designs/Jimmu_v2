@@ -14,7 +14,7 @@ const Blogs = () => {
   const blogs = [
     {
       id: 1,
-      title: "How the Johnny Depp and Amber Heard Divorce Highlights the Complexities of High Net Worth Divorces",
+      title: "How the Johnny Depp and Amber Heard Divorce Highlights",
       description:
         "The The highly publicized divorce between Johnny Depp and Amber Heard provides a striking example of the complexities that come with high net worth (HNW) divorces. With both parties amassing significant wealth from their respective acting careers, the legal proceedings involved more than just emotional struggles—it became a battle over substantial assets, including properties, luxury goods, and intellectual property rights. This case serves as a reminder of the unique challenges HNW individuals face when navigating the legal and financial intricacies of asset division. In the Depp-Heard divorce, one of the primary issues was the valuation and division of high-value items such as properties, vehicles, and luxury collectibles. When large estates and significant assets are on the line, as in this case, both parties must ensure full transparency to avoid hidden debts or undervalued assets. For HNW individuals, using warranty documents can help safeguard key financial interests. These agreements ensure that third-party liabilities are properly accounted for and that no hidden financial obligations affect the final settlement. Warranty documents can also act as protection against asset manipulation during the divorce process. They ensure that all debts are disclosed and that any loans or liabilities connected to valuable assets are transparent. Without these legal safeguards, HNW individuals like Depp or Heard risk losing significant wealth due to unexpected financial claims or asset devaluation during contentious proceedings. The Depp-Heard case also highlights the need for comprehensive legal and financial strategies to protect against undervaluation or fraudulent asset disclosures. By implementing tools such as warranties, individuals involved in high-stakes separations can better protect their wealth and secure a fair and transparent division of assets. The Johnny Depp and Amber Heard divorce serves as a cautionary tale, showcasing the importance of financial diligence and legal safeguards in preserving wealth during a complex, high-net-worth separation. publicized divorce between Johnny Depp and Amber Heard provides a striking example of the complexities that come with high net worth (HNW) divorces",
       image: featuredImg,
@@ -22,7 +22,7 @@ const Blogs = () => {
     },
     {
       id: 2,
-      title: "The Separation of Bill Gates and Melinda French Gates: Insights and Lessons",
+      title: "The Separation of Bill Gates and Melinda French Gates",
       description:
         "On May 2, 2021, On May 2, 2021, the world was taken by surprise when Bill Gates, Microsoft co-founder and billionaire philanthropist, and his wife Melinda French Gates announced their separation after 27 years of marriage. The ex-couple, who had been one of the most influential pairs in philanthropy, issued a statement confirming their commitment to continue running their foundation, the Gates Foundation, which boasts a $40 billion endowment. Despite their split, the Gates' stated they would remain partners in their charitable efforts. One of the most remarkable aspects of their divorce was the lack of a prenuptial agreement. However, the court documents revealed that they had a private separation agreement, which likely helped avoid a public courtroom battle over their multi-billion-dollar estate. Bill Gates, whose net worth at the time exceeded $130.5 billion, and Melinda shared ownership of multiple properties worth millions of dollars, which were presumably addressed in this private agreement. Despite the complexity of their wealth, the couple's focus on amicably continuing their philanthropic work garnered respect and interest from the public. As parents to three children, Bill and Melinda also sought to maintain stability for their family throughout the separation. The Gates divorce, while surprising, demonstrated how even high-profile separations can be managed with discretion, particularly when substantial wealth and public interests are involved. world was taken by surprise when Bill Gates, Microsoft co-founder, and billionaire philanthropist, and his wife Melinda French Gates announced their separation ...",
       image: blogImg1,
@@ -99,7 +99,7 @@ const Blogs = () => {
                         {!showFullContent ? (
                           <>
                             <div className="bg-white bg-opacity-55 p-2 rounded-3xl flex justify-center">
-                              <h2 className="sm:text-[20px] md:text-[28px] w-fit pl-2 font-SF_Bold text-[#000000]">
+                              <h2 className="sm:text-[20px] md:text-[28px] w-fit font-SF_Bold text-[#000000] flex justify-center">
                                 {blog.title}
                               </h2>
                             </div>
