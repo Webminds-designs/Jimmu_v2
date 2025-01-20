@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ctaImage from "../assets/images/CTA.jpeg"; // Ensure the image path is correct
+import logo from "../assets/images/jimmuB2.png";
 
 const ConnectWithUs = () => {
   useEffect(() => {
@@ -62,7 +63,10 @@ const ConnectWithUs = () => {
         </div>
 
         {/* Right Section: Image */}
-        <div className="flex justify-center md:justify-end" data-aos="fade-left">
+        <div
+          className="flex justify-center md:justify-end"
+          data-aos="fade-left"
+        >
           <img
             src={ctaImage}
             alt="Customer Support"
@@ -93,13 +97,17 @@ const Footer = () => {
     >
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center">
         {/* JIMMU Logo */}
-        <div className="flex items-center justify-start md:w-1/3" data-aos="fade-up">
-          <h1
-            className="text-[96px] text-[#FFFAF4]"
-            style={{ fontFamily: "Carmine, serif" }}
+        <div
+          className="flex items-center justify-start md:w-1/3"
+          data-aos="fade-up"
+        >
+          {/* <h1
+            className="text-[96px] text-[#FFFAF4] font-SF_Regular"
+            // style={{ fontFamily: "Carmine, serif" }}
           >
             JIMMU
-          </h1>
+          </h1> */}
+          <img src={logo} alt="JIMMU" className="w-auto h-24" />
         </div>
 
         {/* Navigation Links */}
