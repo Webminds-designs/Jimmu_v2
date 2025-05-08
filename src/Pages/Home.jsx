@@ -8,6 +8,7 @@ import {Footer, ConnectWithUs, FooterBottom } from "../components/Footer";
 import AboutUs_Se01 from "../components/AboutUs_Se01.jsx";
 import AboutUs_Se02 from "../components/AboutUs_Se02.jsx";
 import AboutUs_Se03 from "../components/AboutUs_Se03.jsx";
+import Footer_New from "../components/Footer_New.jsx";
 
 
 export default function Home() {
@@ -52,8 +53,7 @@ export default function Home() {
 
       <footer>
         <ConnectWithUs />
-        <Footer />
-        <FooterBottom />
+       <Footer_New />
       </footer>
     </div>
   );
