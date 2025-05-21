@@ -12,6 +12,7 @@ export default {
         SF_Regular: ["SF_Regular", "sans-serif"],
         SF_Bold: ["SF_Bold", "sans-serif"],
         SF_Medium: ["SF_Medium", "sans-serif"],
+        CARMINE:["Carmine","Carmine"]
       },
     },
   },

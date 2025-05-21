@@ -89,7 +89,7 @@ const Footer_New = () => {
         <div className="flex-grow min-h-0 flex items-center justify-center align-text-top sm:mt-0 ">
             <motion.div
         ref={targetRef}
-        style={{ scale, opacity }} className="md:text-[20vw] text-[25vw] font-extrabold leading-none text-[#222222] mb-32">Jimmu</motion.div >
+        style={{ scale, opacity }} className="md:text-[20vw] text-[25vw] font-extrabold leading-none text-[#222222] font-CARMINE mb-32">Jimmu</motion.div >
         </div>
 
         {/* Footer */}
